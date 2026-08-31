@@ -78,14 +78,19 @@ main {
     grid-template-columns: 1.2fr 1fr;
     gap: 28px;
     align-items: center;
-    justify-items: center;
-    text-align: center;
+    justify-items: start;
+    text-align: left;
     padding: 42px 0 26px;
+}
+
+.hero-copy {
+    width: 100%;
+    text-align: left;
 }
 
 .eyebrow,
 .card-label {
-    margin: 0 0 10px;
+    margin: 10pxmov 0 10px;
     font-size: 0.78rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
